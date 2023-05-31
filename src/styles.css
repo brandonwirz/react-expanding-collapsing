@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.collapse-button {
+  width: 180px;
+}
+
+.collapse-content {
+  border: solid 2px grey;
+  margin-top: 1em;
+}
+.collapse-content.collapsed {
+  width: 500px;
+}
+
+.collapse-content.expanded {
+  width: 900px;
+}
