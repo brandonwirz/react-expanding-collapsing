@@ -4,11 +4,14 @@
 
 .collapse-button {
   width: 180px;
+  display: flex;
+  margin-left: auto;
 }
 
 .collapse-content {
   border: solid 2px grey;
   margin-top: 1em;
+  padding: 10px;
 }
 .collapse-content.collapsed {
   width: 500px;
